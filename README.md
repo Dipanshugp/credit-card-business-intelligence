@@ -1,46 +1,46 @@
-# Django CRUD Web Application
+# Credit_Card_Financial_Dashboard
 
-This project is a Django-based web application that implements core CRUD (Create, Read, Update, Delete) operations with a structured and maintainable architecture. It demonstrates backend development practices, database integration, and dynamic data handling using Django’s MVC pattern.
+A professional data analytics project built using Power BI to visualize and analyze credit card transaction and customer data. The dashboard delivers clear, data-driven insights to support business decision-making and performance monitoring.
 
 ## Overview
 
-The application allows users to create, view, update, and delete records through a clean interface. It is designed to reflect real-world development scenarios and follows standard coding practices for scalability and readability.
+This project focuses on transforming raw financial data from a SQL database into an interactive and insightful dashboard. It highlights key performance indicators, customer behavior, and transaction trends in a structured and user-friendly format.
 
 ## Key Features
 
-* Data creation with form validation
-* Listing and retrieval of stored records
-* Update functionality with pre-filled forms
-* Secure deletion with confirmation handling
-* Integration with Django Admin for backend control
+* Interactive Power BI dashboard for real-time insights
+* Revenue, transaction, and interest analysis
+* Customer segmentation based on demographics
+* Region-wise and card-type performance tracking
+* KPI monitoring including activation and delinquency rates
 
 ## Technologies Used
 
-* Backend: Python, Django
-* Frontend: HTML, CSS, Bootstrap
-* Database: SQLite (default), MySQL (optional)
-* Version Control: Git, GitHub
+* Power BI
+* SQL
+* Data Modeling and Visualization
+
+## Insights
+
+* Revenue growth of 28.8% on a weekly basis
+* Total revenue reached 57M with 8M interest earned
+* Transaction volume of 667K with total amount of 46M
+* Higher revenue contribution from male customers (31M) compared to female (26M)
+* Blue and Silver cards contribute to 93% of transactions
+* Top contributing regions include TX, NY, and CA (68%)
+* Activation rate stands at 57.5% and delinquency rate at 6.06%
 
 ## Challenges Faced
 
-During development, several practical issues were encountered and resolved:
-
-* Data fetching issues due to incorrect query handling in views
-* Context variable mismatches between views and templates
-* URL routing errors and improper linking between apps
-* Migration-related problems leading to missing database tables
-* Form validation errors and improper handling of POST requests
-* Template rendering issues due to incorrect file structure
-
-These challenges helped strengthen debugging skills and understanding of Django’s request-response cycle.
-
-## Setup Instructions
-
-Clone the repository, create a virtual environment, install dependencies, run migrations, and start the development server to access the application locally.
+* Data cleaning and transformation from raw SQL datasets
+* Designing an efficient data model for accurate visualization
+* Handling large datasets for performance optimization
+* Creating meaningful KPIs and business insights
+* Ensuring clarity and usability in dashboard design
 
 ## Use Cases
 
-This project can be extended into applications such as student management systems, inventory systems, or content management platforms.
+This dashboard can be used by financial analysts, banking institutions, and business stakeholders to monitor performance, identify trends, and make informed decisions.
 
 ## License
 
